@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body, p ,h1, h2, h3, h4, h5, h6, input, span{
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width: 672px;
+	margin: 0px auto;
+}
+.banner{
+	width: 100%;
+	height: 38vh;
+	background-image: url(../img/up.JPG);
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+.banner p{
+	text-align: center;
+	padding-top: 66px;
+	font-weight: bold;
+	font-size: 30px;
+    color: white;
+}
+.form{
+	text-align: center;
+	letter-spacing: .5px;
+	width: 100%;
+}
+.d-control{
+	display: inline-block;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.form-control{
+	padding: 20px 0px;
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #b2b2b2;
+}
+.text{
+	color: #808080;
+}
+.d-control label, input{
+	color: #808080;
+	margin-bottom: 15px;
+	font-size: 15px;	
+}
+.text{
+	margin-right: 20px;
+}
+.form input[placeholder]{
+	color: #808080;
+}
+input:focus{
+	outline-color: #d1bfbf;
+}
+.remember{
+    margin-right: 170px;
+    font-size: 13px;
+    color: #808080;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+.remember input{
+	color: #808080;
+}
+.btn input{
+	padding: 15px 60px;
+	border-radius: 25px;
+	border: none;
+	background-color: #57b846;
+	color: white;
+	margin-right: 150px;
+	margin-top: 20px;
+}
+.btn input:hover{
+	background-color: #333333;
+}
